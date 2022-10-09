@@ -1,6 +1,3 @@
-// NOTE This is a sample page and should either be
-// modified or removed from a real project
-
 import React, { ReactElement } from 'react';
 import { Row, Col, Card } from 'react-bootstrap';
 
@@ -23,3 +20,26 @@ const Home = (): ReactElement => (
 );
 
 export default Home;
+
+/*
+
+
+Info
+  Name
+  Agent number
+
+Skills
+  Favorite number
+  Favorite shape
+
+Next assignment
+
+Solved cases;
+  
+
+
+
+
+
+
+*/

@@ -5,6 +5,8 @@ import { BrowserRouter, HashRouter } from 'react-router-dom'; // Use `HashRouter
 import { Container, Card } from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
 
+import spyLogo from './images/noun-spy-2606506-FFFFFF.png';
+
 const Router =
   process.env.REACT_APP_USE_HASH_ROUTER === 'true' ? HashRouter : BrowserRouter;
 
@@ -22,7 +24,9 @@ const Header = (): ReactElement => (
   <header>
     <Card bg='dark' text='white'>
       <Card.Body>
-        <Card.Title>Sample redux application</Card.Title>
+        <Card.Title>
+          <img src={spyLogo} style={{ height: '75px' }} /> Society of Math Spies
+        </Card.Title>
       </Card.Body>
     </Card>
   </header>
