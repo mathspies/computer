@@ -61,7 +61,7 @@ describe('SetAxios tests', () => {
         testResponse={testResponse}
       />
     );
-    await waitFor(() => screen.queryByTestId('done'));
+    await waitFor(() => screen.getByTestId('done'));
 
     expect(clearError).toHaveBeenCalledTimes(1);
     expect(setError).toHaveBeenCalledTimes(1);
@@ -80,8 +80,7 @@ describe('SetAxios tests', () => {
         testResponse={testResponse}
       />
     );
-    await waitFor(() => screen.queryByTestId('done'));
-
+    await waitFor(() => screen.getByTestId('done'));
     expect(clearError).toHaveBeenCalledTimes(1);
     expect(setError).toHaveBeenCalledTimes(0);
     expect(testResponse).toHaveBeenCalledTimes(1);
