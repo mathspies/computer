@@ -7,13 +7,12 @@ const Home = (): ReactElement => (
     <Col>
       <Card bg='secondary' text='white'>
         <Card.Body>
-          <h1>Sample Application </h1>
-          <p>This is the home page for an application</p>
+          <h1>Coming soon!</h1>
         </Card.Body>
       </Card>
       <p>
-        This project can be used as template when starting other React/Redux
-        projects.
+        This is the homepage for the Society of Math Spies. The system is
+        currently being upgraded. Check back later.
       </p>
     </Col>
   </Row>
