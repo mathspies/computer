@@ -25,7 +25,8 @@ const Header = (): ReactElement => (
     <Card bg='dark' text='white'>
       <Card.Body>
         <Card.Title>
-          <img src={spyLogo} style={{ height: '75px' }} /> Society of Math Spies
+          <img src={spyLogo} style={{ height: '75px' }} alt='' /> Society of
+          Math Spies
         </Card.Title>
       </Card.Body>
     </Card>
