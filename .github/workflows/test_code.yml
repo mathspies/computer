@@ -32,8 +32,8 @@ jobs:
       - name: Can module be built
         run: npm run build:ci
 
-      - name: Cypress run
-        uses: cypress-io/github-action@v3
-        with:
-          wait-on: 'http://localhost:3000'
-          start: npm start
+      # - name: Cypress run
+      #   uses: cypress-io/github-action@v3
+      #   with:
+      #     wait-on: 'http://localhost:3000'
+      #     start: npm start
